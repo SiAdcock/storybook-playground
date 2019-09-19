@@ -1,0 +1,19 @@
+{
+  "name": "storybook-playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Simon Adcock <simonadcock2@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "storybook": "start-storybook",
+    "build": "build-storybook -o dist"
+  },
+  "dependencies": {
+    "@babel/core": "^7.6.0",
+    "@storybook/addon-backgrounds": "^5.2.1",
+    "@storybook/react": "^5.2.1",
+    "babel-loader": "^8.0.6",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
